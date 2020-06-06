@@ -1,1 +1,1 @@
-### React app built in Typescript 🇹 and Graphql🚀
+### React app built in Typescript 🇹, Graphql and Next.js🚀

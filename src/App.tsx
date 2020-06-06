@@ -1,13 +1,18 @@
 import * as React from 'react';
 
+import  { ApolloProvider } from '@apollo/react-hooks'
+import  ApolloClient from 'apollo-boost'
+
 import Home from './Components/Home'
+
+const client = new ApolloClient({ uri:'https://872cb.sse.codesandbox.io/' })
 
 function App() {
   return (
-    <div className="App">
+    <ApolloProvider client={client}>
       <Home/>
-    </div>
-  );
+    </ApolloProvider>
+  )
 }
 
 export default App;

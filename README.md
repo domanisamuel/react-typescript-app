@@ -1,1 +1,1 @@
-### react-typescript-app
+### React app built in Typescript 🇹 and Graphql🚀

@@ -1,9 +1,12 @@
 import React from 'react'
+import Todo from '../Demo/Todo'
 
-function Home () {
+
+const Home: React.FC = () => {
     return (
         <div className='home'>
-            <h2>React TypeScript App</h2>
+            <h1>Deyjah!</h1>
+            <Todo/>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Home from './Components/Home'
 
 const client = new ApolloClient({ uri:'https://872cb.sse.codesandbox.io/' })
 
-function App() {
+const App: React.FC =()=> {
   return (
     <ApolloProvider client={client}>
       <Home/>
